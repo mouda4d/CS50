@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: When using the sorted50000.txt and its lower ones it yields the lowest time as it recognizes no swaps was necessary O(n).
+
+sort2 uses: Merge Sort
+
+How do you know?: It was the fastest in random50000.txt compared to the two others O(nlogn).
+
+sort3 uses: Selection Sort
+
+How do you know?: it was alot slower in sortedt50000.txt compared to sort1 as it iterated not realizing the numbers are sorted O(n^2)

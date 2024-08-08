@@ -1,0 +1,1 @@
+SELECT (SUM(energy) / COUNT(energy)) from songs WHERE artist_id IN (SELECT id FROM artists WHERE name = "Drake");
